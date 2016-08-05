@@ -16,15 +16,6 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
-    <Content Include="client\css\freelancer.css" />
-    <Content Include="client\css\freelancer.min.css" />
-    <Content Include="client\img\portfolio\cabin.png" />
-    <Content Include="client\img\portfolio\cake.png" />
-    <Content Include="client\img\portfolio\circus.png" />
-    <Content Include="client\img\portfolio\game.png" />
-    <Content Include="client\img\portfolio\safe.png" />
-    <Content Include="client\img\portfolio\submarine.png" />
-    <Content Include="client\img\profile.png" />
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Compile Include="app\routes.js" />
@@ -45,7 +36,6 @@
     <Folder Include="client" />
     <Folder Include="client\css" />
     <Folder Include="client\img" />
-    <Folder Include="client\img\portfolio\" />
     <Folder Include="client\js" />
     <Folder Include="config\" />
     <Folder Include="app\" />
